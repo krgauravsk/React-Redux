@@ -1,13 +1,7 @@
 import { ActionTypes } from "../constants/actionTypes";
 
 const initialState = {
-    products: [
-        {
-            id: 1,
-            tittle: "Gaurav",
-            category: "coding"
-        },
-    ],
+    products: [], //api-data 
 };
 
 export const productReducers = (state = initialState, type, payload) => {
